@@ -16,4 +16,5 @@ pool.connect()
   })
   .catch((err) => console.error('Gagal koneksi database:', err.message));
 
+  
 module.exports = pool;
